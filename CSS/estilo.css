@@ -1,0 +1,62 @@
+
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.curso {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.imagem-curso {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.conteudo {
+  margin-top: 26px;
+}
+
+.conteudo h2 {
+  margin-top: 0;
+}
+
+.info-curso {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  min-width: 250px;
+  height: fit-content;
+}
+
+.info-curso p {
+  margin: 10px 0;
+}
+
+.inscrever,
+.info {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.inscrever {
+  background-color: #0f62fe;
+  color: white;
+}
+
+.info {
+  background-color: #f0f0f0;
+}
